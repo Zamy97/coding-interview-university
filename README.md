@@ -571,8 +571,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
+        - [x] size() - returns number of data elements in list
+        - [x] empty() - bool returns true if empty
         - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
         - [ ] push_front(value) - adds an item to the front of the list
         - [ ] pop_front() - remove front item and return its value
@@ -584,7 +584,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] erase(index) - removes node at given index
         - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
         - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
+        - [x] remove_value(value) - removes the first item in the list with this value
     - [ ] Doubly-linked List
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No need to implement
